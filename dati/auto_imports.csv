@@ -125,8 +125,6 @@ symboling,normalized-losses,make,fuel-type,aspiration,num-of-doors,body-style,dr
 3,,porsche,gas,std,two,hardtop,rwd,rear,89.50,168.90,65.00,51.60,2756,ohcf,six,194,mpfi,3.74,2.90,9.50,207,5900,17,25,32528
 3,,porsche,gas,std,two,hardtop,rwd,rear,89.50,168.90,65.00,51.60,2756,ohcf,six,194,mpfi,3.74,2.90,9.50,207,5900,17,25,34028
 3,,porsche,gas,std,two,convertible,rwd,rear,89.50,168.90,65.00,51.60,2800,ohcf,six,194,mpfi,3.74,2.90,9.50,207,5900,17,25,37028
-0,,renault,gas,std,four,wagon,fwd,front,96.10,181.50,66.50,55.20,2579,ohc,four,132,mpfi,3.46,3.90,8.70,,,23,31,9295
-2,,renault,gas,std,two,hatchback,fwd,front,96.10,176.80,66.60,50.50,2460,ohc,four,132,mpfi,3.46,3.90,8.70,,,23,31,9895
 3,150,saab,gas,std,two,hatchback,fwd,front,99.10,186.60,66.50,56.10,2658,ohc,four,121,mpfi,3.54,3.07,9.31,110,5250,21,28,11850
 2,104,saab,gas,std,four,sedan,fwd,front,99.10,186.60,66.50,56.10,2695,ohc,four,121,mpfi,3.54,3.07,9.30,110,5250,21,28,12170
 3,150,saab,gas,std,two,hatchback,fwd,front,99.10,186.60,66.50,56.10,2707,ohc,four,121,mpfi,2.54,2.07,9.30,110,5250,21,28,15040

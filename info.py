@@ -12,20 +12,20 @@ def info(datne):
     print(cl("\nPirmās 5 rindiņas", attrs = ['bold']))
     print(df.head(5))
     # # aplūkojam kolonnu nosaukumus
-    # print(cl("\nKolonnu nosaukumi", attrs = ['bold']))
-    # print(df.columns)
+    print(cl("\nKolonnu nosaukumi", attrs = ['bold']))
+    print(df.columns)
 
     # # aplūkojam statistisku informāciju
-    # print(cl("\nStatistika", attrs = ['bold']))
-    # print(df.describe())
+    print(cl("\nStatistika", attrs = ['bold']))
+    print(df.describe())
 
-    # print(cl("\nDatu tipi", attrs = ['bold']))
+    print(cl("\nDatu tipi", attrs = ['bold']))
     # aplūkojam datu tipus
-    # print(cl(df.dtypes, attrs = ['bold']))
+    print(cl(df.dtypes, attrs = ['bold']))
 
     # # parāda, kur datos ir tukšas vērtības
-    # print(cl("\nTukšas vērtības datos", attrs = ['bold']))
-    # print(df.isnull().sum())
+    print(cl("\nTukšas vērtības datos", 'green', attrs = ['bold']))
+    print(df.isnull().sum())
 
 
 
@@ -33,4 +33,4 @@ datne1 = 'dati/auto_simple.csv'
 datne2 = 'dati/auto_imports.csv'
 
 # parādām informāciju par datnē esošajiem datiem
-info(datne1)
+info(datne2)
