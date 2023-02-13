@@ -15,7 +15,7 @@ def saglaba (url, datne):
         with open(datne, 'w', encoding='UTF-8') as f:
             f.write(rezultats.text)
 
-# saglaba(URL, LAPAS + "pirma_lapa.html")
+saglaba(URL, LAPAS + "lapa1.html")
 
 
 def info(datne):
@@ -94,25 +94,25 @@ def atvelkam_lapas(cik):
     # saglaba(URL, pirma_lapa)
     for i in range(1, cik+1):
         url = "{}page{}.html".format(URL,i)
-        datne ="{}page{}.html".format(LAPAS, i)
+        datne ="{}lapa{}.html".format(LAPAS, i)
         saglaba(url,datne)
         time.sleep(1)
 
-# atvelkam_lapas(5)
+atvelkam_lapas(200)
 
-# d3 = info(LAPAS+"page3.html")
-# print(d3)
+# d1 = info(LAPAS+"lapa1.html")
+# # print(d1)
 # saglaba_datus(d1)
 
 
 def izvelkam_datus(cik):
     visi_dati = []
     for i in range (1, cik+1):
-        datne ="{}page{}.html".format(LAPAS, i)
+        datne ="{}lapa{}.html".format(LAPAS, i)
 
         datnes_dati = info(datne)
         visi_dati += datnes_dati
 
-    saglaba_datus(visi_dati)
+        saglaba_datus(visi_dati)
 
-izvelkam_datus(5)
+izvelkam_datus(200)
